@@ -9,7 +9,7 @@ function Contact() {
   const collectData = async (e) => {
     e.preventDefault();
     try {
-      let result = await fetch("http://localhost:4000/", {
+      let result = await fetch("https://portfolio-api-bice.vercel.app/", {
         method: "POST",
         body: JSON.stringify({ name, email, phoneNo, message }),
         headers: {
