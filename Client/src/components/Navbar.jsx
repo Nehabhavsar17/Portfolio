@@ -3,7 +3,7 @@ import pic from "../../public/neha.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
-import resume from "../../public/resume.pdf"; // Import your PDF file
+import resume from "../../assets/Resume.pdf"; // Import your PDF file
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
